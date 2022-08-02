@@ -18,7 +18,7 @@ Interests - 전자기기 <br>
             건강, 헬스 <br>
             사진 및 영상 촬영, 편집
 
-## Hard Skills - C, Java, Python, Web, SQL
+## Hard Skills - C, Java, Python, JavaScript, SQL
 
 ## Soft Skills - Communication, Presentation
 
