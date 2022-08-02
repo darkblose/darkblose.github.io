@@ -1,7 +1,8 @@
 [Page](https://darkblose.github.io/)
 
-## About Me - 전자기기에 대한 관심을 시작으로 컴퓨터와 IT에 흥미를 갖고 컴퓨터정보통신공학과를 전공하였습니다. <br>
-## IoT, 모바일, AI 등 4차산업혁명과 관련된 기술 및 그를 뒷받침하는 HW와 전기차 등 다양한 플랫폼과 형태의 전자기기에 넓게 관심을 두고 있습니다.
+# About Me
+### 전자기기에 대한 관심을 시작으로 컴퓨터와 IT에 흥미를 갖고 컴퓨터정보통신공학과를 전공하였습니다. <br>
+### IoT, 모바일, AI 등 4차산업혁명과 관련된 기술 및 그를 뒷받침하는 HW와 전기차 등 다양한 플랫폼과 형태의 전자기기에 넓게 관심을 두고 있습니다.
 
 Education - 홍익대학교 컴퓨터정보통신공학과
 
@@ -18,7 +19,7 @@ Interests - 전자기기 <br>
             건강, 헬스 <br>
             사진 및 영상 촬영, 편집
 
-## Hard Skills - C, Java, Python, JavaScript, SQL
+### Hard Skills - C, Java, Python, JavaScript, SQL
 
-## Soft Skills - Communication, Presentation
+### Soft Skills - Communication, Presentation
 
