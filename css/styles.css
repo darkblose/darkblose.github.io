@@ -18,14 +18,17 @@
         3. Global Styles
         4. Lead Styles
         5. About Styles
-        6. Experience Styles
-        7. Education Styles
-        8. Certifiate Styles
-        9. Project Styles
-        10. Skills Styles
-        11. Contact Styles
-        12. Optional Section Styles
-        13. Media Queries
+        6. Introduction Styles
+        7. Project Styles
+        8. Work Experience Styles
+        9. Personal Experience Styles
+        10. Certifiate Styles
+        11. Prize Styles
+        12. Skills Styles
+        13. Education Styles       
+        14. Contact Styles
+        15. Optional Section Styles
+        16. Media Queries
 */
 /*
     ------------------------
@@ -318,22 +321,86 @@ footer {
     margin: 0; }
 
 /*
-    --------------------------------
-    ----- 6. Experience Styles -----
-    --------------------------------
+    ----------------------------------
+    ----- 6. Introduction Styles -----
+    ----------------------------------
 */
-#experience {
+#introduction {
+  padding: 75px 15px;
+  border-bottom: 1px solid #dcd9d9; }
+  #introduction h2 {
+    color: #374054; }
+  #introduction p {
+    color: #74808a;
+    margin: 0; }
+
+/*
+    -------------------------------
+    ----- 7. Project Styles -----
+    -------------------------------
+*/
+#projects {
+  padding: 50px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center; }
+  #projects h2 {
+    color: #374054;
+    margin-bottom: 50px; }
+
+.project {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px; }
+
+.project-image {
+  float: left; }
+
+.project-info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 300px;
+  padding: 15px; }
+  .project-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0; }
+  .project-info p {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em; }
+
+.no-image .project-info {
+  position: relative;
+  margin: 0;
+  padding: 30px 15px;
+  transform: none; }
+
+#more-projects {
+  display: none; }
+
+
+/*
+    -------------------------------------
+    ----- 8. Work Experience Styles -----
+    -------------------------------------
+*/
+#workexperience {
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9; }
-  #experience h2 {
+  #workexperience h2 {
     color: #374054; }
 
-#experience-timeline {
+#workexperience-timeline {
   margin: 30px auto 0 auto;
   position: relative;
   max-width: 1000px; }
-  #experience-timeline:before {
+  #workexperience-timeline:before {
     position: absolute;
     content: '';
     top: 0;
@@ -344,7 +411,7 @@ footer {
     width: 3px;
     background: #3498db;
     z-index: 0; }
-  #experience-timeline:after {
+  #workexperience-timeline:after {
     position: absolute;
     content: '';
     width: 3px;
@@ -408,9 +475,164 @@ footer {
   color: #374054; }
 
 /*
+    -----------------------------------------
+    ----- 9. Personal Experience Styles -----
+    -----------------------------------------
+*/
+#personalexperience {
+  padding: 50px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center; }
+  #personalexperience h2 {
+    color: #374054;
+    margin-bottom: 50px; }
+
+.personalexperience {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px; }
+
+.personalexperience-image {
+  float: left; }
+
+.personalexperience-info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 300px;
+  padding: 15px; }
+  .personalexperience-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0; }
+  .personalexperience-info p {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em; }
+
+.no-image .personalexperience-info {
+  position: relative;
+  margin: 0;
+  padding: 30px 15px;
+  transform: none; }
+
+#more-personalexperience {
+  display: none; }
+
+
+/*
     -------------------------------
-    ----- 7. Education Styles -----
+    ---- 10. Certifiate Styles ----
     -------------------------------
+*/
+#certificate {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center; }
+  #certificate h2 {
+    color: #374054;
+    margin-bottom: 50px; }
+
+.certificate-block {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid #dcd9d9;
+  text-align: left; }
+  .certificate-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    color: #374054; }
+  .certificate-block span {
+    color: #74808a;
+    float: right; }
+  .certificate-block h4 {
+    color: #74808a;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px 0; }
+  .certificate-block p, .certificate-block ul {
+    margin: 0;
+    color: #74808a;
+    font-size: 0.9em; }
+  .certificate-block ul {
+    padding: 0 0 0 15px; }
+ 
+/*
+    ----------------------------
+    ----- 11. Prize Styles -----
+    ----------------------------
+*/
+#prize {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center; }
+  #prize h2 {
+    color: #374054;
+    margin-bottom: 50px; }
+
+.prize-block {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid #dcd9d9;
+  text-align: left; }
+  .prize-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    color: #374054; }
+  .prize-block span {
+    color: #74808a;
+    float: right; }
+  .prize-block h4 {
+    color: #74808a;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px 0; }
+  .prize-block p, .prize-block ul {
+    margin: 0;
+    color: #74808a;
+    font-size: 0.9em; }
+  .prize-block ul {
+    padding: 0 0 0 15px; }
+
+
+/*
+    -----------------------------
+    ----- 12. Skills Styles -----
+    -----------------------------
+*/
+#skills {
+  padding: 50px 15px;
+  text-align: center; }
+  #skills h2 {
+    color: #374054;
+    margin-bottom: 50px; }
+  #skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px; }
+  #skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em; }
+
+/*
+    --------------------------------
+    ----- 13. Education Styles -----
+    --------------------------------
 */
 #education {
   padding: 50px 15px 20px 15px;
@@ -448,121 +670,7 @@ footer {
 
 /*
     -------------------------------
-    ---- 8. Certifiate Styles ----
-    -------------------------------
-*/
-#certificate {
-  padding: 50px 15px 20px 15px;
-  border-bottom: 1px solid #dcd9d9;
-  text-align: center; }
-  #certificate h2 {
-    color: #374054;
-    margin-bottom: 50px; }
-
-.certificate-block {
-  max-width: 700px;
-  margin: 0 auto 30px auto;
-  padding: 15px;
-  border: 1px solid #dcd9d9;
-  text-align: left; }
-  .certificate-block h3 {
-    font-weight: 500;
-    float: left;
-    margin: 0;
-    color: #374054; }
-  .certificate-block span {
-    color: #74808a;
-    float: right; }
-  .certificate-block h4 {
-    color: #74808a;
-    clear: both;
-    font-weight: 500;
-    margin: 0 0 15px 0; }
-  .certificate-block p, .certificate-block ul {
-    margin: 0;
-    color: #74808a;
-    font-size: 0.9em; }
-  .certificate-block ul {
-    padding: 0 0 0 15px; }
-
-/*
-    -------------------------------
-    ----- 9. Project Styles -----
-    -------------------------------
-*/
-#projects {
-  padding: 50px 15px;
-  border-bottom: 1px solid #dcd9d9;
-  text-align: center; }
-  #projects h2 {
-    color: #374054;
-    margin-bottom: 50px; }
-
-.project {
-  position: relative;
-  max-width: 900px;
-  margin: 0 auto 30px auto;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 4px; }
-
-.project-image {
-  float: left; }
-
-.project-info {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 300px;
-  padding: 15px; }
-  .project-info h3 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
-    margin: 0 0 15px 0; }
-  .project-info p {
-    color: #74808a;
-    margin: 0 0 15px 0;
-    font-size: 0.9em; }
-
-.no-image .project-info {
-  position: relative;
-  margin: 0;
-  padding: 30px 15px;
-  transform: none; }
-
-#more-projects {
-  display: none; }
-
-/*
-    -------------------------------
-    ----- 10. Skills Styles -----
-    -------------------------------
-*/
-#skills {
-  padding: 50px 15px;
-  text-align: center; }
-  #skills h2 {
-    color: #374054;
-    margin-bottom: 50px; }
-  #skills ul {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 800px; }
-  #skills li {
-    display: inline-block;
-    margin: 7px;
-    padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em; }
-
-/*
-    -------------------------------
-    ----- 11. Contact Styles -----
+    ----- 14. Contact Styles ------
     -------------------------------
 */
 #contact {
@@ -619,7 +727,7 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 12. Optional Section Styles -----
+    ----- 15. Optional Section Styles -----
     ---------------------------------------
 */
 .optional-section {
@@ -654,7 +762,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 13. Media Queries -----
+    ----- 16. Media Queries -----
     -----------------------------
 */
 @media only screen and (max-width: 750px) {
